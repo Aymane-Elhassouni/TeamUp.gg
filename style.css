@@ -62,8 +62,13 @@ header{
 }
 
 section {
-    background: linear-gradient(150deg,#00FFFF26,#ff00ff26) ;
+    background: linear-gradient(140deg,#1A1F3A,#FF00FF26) ;
     min-height: 690px;
+}
+
+.contant {
+    background: linear-gradient(150deg,#00FFFF26,#0F1428E5) ;
+    min-height: 280px;
 }
 
 .center {
