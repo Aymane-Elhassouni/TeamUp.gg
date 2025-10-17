@@ -22,6 +22,15 @@ header{
 
 }
 
+a {
+    text-decoration: none;
+    color: white;
+}
+
+a:link:hover {
+    color:#00FFFF;
+}
+
 .container {
     width: fixed(1023px);
     height: 50px;
@@ -61,9 +70,15 @@ header{
     
 }
 
-section {
+.section {
     background: linear-gradient(140deg,#1A1F3A,#FF00FF26) ;
     min-height: 690px;
+}
+
+.section-1 {
+    background: linear-gradient(#1A1F3A99,#0F142899) ;
+    min-height: 550px;
+    align-content: center;
 }
 
 .contant {
@@ -159,7 +174,7 @@ ul li {
     width: 40px;
     height: 40px;
     border: 1px;
-    padding: 1px;
+    padding-top: 10px;
     border-radius: 8px;
     color:#00FFFF;
 }
@@ -169,4 +184,52 @@ ul li {
   justify-content: space-between;
   align-items: center;
 
+}
+.ccm {
+    background-color: #0A0E27F2;
+    min-height: 500px;
+}
+
+.ccm-2 {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+}
+
+.ccm-1 {
+    background: linear-gradient(#1A1F3A99,#0F142899);
+    width: 270px;
+    height: 270px;
+    text-align: center;
+    border: 1px;
+    border-style: solid;
+    border-color: #00FFFF33;
+    border-radius: 16px;
+    align-content: center;
+}
+.ccm-h1 {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.forms-annonce {
+    display: flex;
+    flex-direction: column;
+    width: 250px;
+    margin-left: 490px;
+}
+
+.forms-annonce1 {
+    background-color: #0A0E27CC;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    padding: 15px;
+    border-style:solid;
+    border-color: #00FFFF4D;
+    border-radius: 15px;
+    color: white;
+}
+
+::placeholder{
+    color: #e0e0e0c4;
 }
