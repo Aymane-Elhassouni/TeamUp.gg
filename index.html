@@ -18,13 +18,14 @@
             TeamUp<span class="span">.gg</span>
         </div>
     <ul class="nav">
-        <li><a href="#accueil">Accueil</a></li>
-        <li><a href="ccm.html">Comment ça marche</a></li>
-        <li><a>Joueurs</a></li>
-        <li><a href="annonce.html">Communauté</a></li>
-        <button class="div-button-color">
+        <li><a href="#accueil" class="nav-link">Accueil</a></li>
+        <li><a href="#ccm" class="nav-link">Comment ça marche</a></li>
+        <li><a href="#joueurs" class="nav-link">Joueurs</a></li>
+        <li><a href="#Communauté" class="nav-link">Communauté</a>
+        </li>
+        <li><button class="div-button-color">
             <a>Connexion</a>
-        </button>
+        </button></li>
     </ul>
     
     </header>
@@ -46,6 +47,195 @@
             </div>
         </div>
     </section>
+
+    <!-- section ccm -->
+    <section class="ccm" id="ccm">
+        <h2 class="ccm-h1">Comment ça marche ?</h2>
+        <div class=" ccm-2" >
+            
+            <div class="ccm-1">
+                <div class="ccm-div1">
+                    <i class="fa-solid fa-user"></i>
+                    <h3>Trouve une équipe</h3>
+                    <div class="ccm-div">
+                        <p class="ccm-p">Parcours des centaines de profils de<br> joueurs et d'équipes qui cherchent des<br> coéquipiers de ton niveau.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="ccm-1">
+                <div class="ccm-div2">
+                    <i class="fa-solid fa-user-plus"></i>
+                <h3>Publie ton profil</h3>
+                <div>
+                    <p class="ccm-p">Crée ton profil de joueur avec tes stats,<br> tes jeux favoris et ton niveau pour être<br> visible par les équipes.</p>
+                </div>
+                </div>
+            </div>
+            <div class="ccm-1">
+                <div class="ccm-div3">
+                    <i class="fa-solid fa-user-group"></i>
+                <h3>Rejoins la communauté</h3>
+                <div>
+                    <p class="ccm-p">Connecte-toi avec des milliers de<br> joueurs passionnés et participe à des<br> tournois communautaires.</p>
+                </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- section Communauté -->
+    <section class="section-1" id="Communauté">
+        <div>
+            <h1 class="annonce-h1">annonce de recrutement</h1>
+            <form class="forms-annonce">
+                <input type="text" placeholder="nom et prénom" class="forms-annonce1">
+                <input type="text" placeholder="Niveau" class="forms-annonce1">
+                <select class="forms-annonce1">
+                    <option value="Valorant">Valorant</option>
+                    <option value="cs2">cs2</option>
+                    <option value="League of Legends">League of legends</option>
+                </select>
+                <textarea type="text" placeholder="description" class="forms-annonce1"></textarea>
+            </form>
+        </div>
+        
+    </section>
+
+    <!-- section Joueurs -->
+    <section class="section-1" id="joueurs">
+        <div>
+            <h2 class="section-title">Joueurs disponibles</h2>
+            <div class="players-flex">
+                <div class="player-card">
+                    <div class="player-header">
+                        <div class="player-avatar">
+                            <img src="/image/profile.jpg">
+                            <img src="/placeholder.svg?height=80&width=80" alt="Avatar">
+                        </div>
+                        <div class="player-status online"></div>
+                    </div>
+                    <div class="player-info">
+                        <h3 class="player-name">xFawzer</h3>
+                        <div class="player-game">
+                            <span class="game-badge valorant">Valorant</span>
+                        </div>
+                        <div class="player-details">
+                            <span class="player-role">Controller</span>
+                            <span class="player-rank">Diamant II</span>
+                        </div>
+                        <p class="player-bio">Main Clove/Omen, cherche équipe compétitive pour ranked push</p>
+                    </div>
+                    <button class="btn btn-primary btn-full">Voir le profil</button>
+                </div>
+                <div class="player-card">
+                    <div class="player-header">
+                        <div class="player-avatar">
+                            <img src="/image/6638.png">
+                            <img src="/placeholder.svg?height=80&width=80" alt="Avatar">
+                        </div>
+                        <div class="player-status online"></div>
+                    </div>
+                    <div class="player-info">
+                        <h3 class="player-name">PhoenixRising</h3>
+                        <div class="player-game">
+                            <span class="game-badge lol">League of Legends</span>
+                        </div>
+                        <div class="player-details">
+                            <span class="player-role">Mid Lane</span>
+                            <span class="player-rank">Maître</span>
+                        </div>
+                        <p class="player-bio">Joueur mid expérimenté, disponible pour scrims et tournois</p>
+                    </div>
+                    <button class="btn btn-primary btn-full">Voir le profil</button>
+                </div>
+                <div class="player-card">
+                    <div class="player-header">
+                        <div class="player-avatar">
+                            <img src="/image/téléchargement.jpeg">
+                            <img src="/placeholder.svg?height=80&width=80" alt="Avatar">
+                        </div>
+                        <div class="player-status offline"></div>
+                    </div>
+                    <div class="player-info">
+                        <h3 class="player-name">IceQueen</h3>
+                        <div class="player-game">
+                            <span class="game-badge cs2">CS2</span>
+                        </div>
+                        <div class="player-details">
+                            <span class="player-role">AWPer</span>
+                            <span class="player-rank">Global Elite</span>
+                        </div>
+                        <p class="player-bio">AWP main, 3000h de jeu, cherche équipe sérieuse</p>
+                    </div>
+                    <button class="btn btn-primary btn-full">Voir le profil</button>
+                </div>
+                <div class="player-card">
+                    <div class="player-header">
+                        <div class="player-avatar">
+                            <img src="/image/image.jpg">
+                            <img src="/placeholder.svg?height=80&width=80" alt="Avatar">
+                        </div>
+                        <div class="player-status online"></div>
+                    </div>
+                    <div class="player-info">
+                        <h3 class="player-name">NeonBlade</h3>
+                        <div class="player-game">
+                            <span class="game-badge valorant">Valorant</span>
+                        </div>
+                        <div class="player-details">
+                            <span class="player-role">Contrôleur</span>
+                            <span class="player-rank">Platine III</span>
+                        </div>
+                        <p class="player-bio">Main Omen/Viper, bon game sense et communication</p>
+                    </div>
+                    <button class="btn btn-primary btn-full">Voir le profil</button>
+                </div>
+                <div class="player-card">
+                    <div class="player-header">
+                        <div class="player-avatar">
+                            <img src="/image/6766.png">
+                            <img src="/placeholder.svg?height=80&width=80" alt="Avatar">
+                        </div>
+                        <div class="player-status online"></div>
+                    </div>
+                    <div class="player-info">
+                        <h3 class="player-name">ThunderGod</h3>
+                        <div class="player-game">
+                            <span class="game-badge lol">League of Legends</span>
+                        </div>
+                        <div class="player-details">
+                            <span class="player-role">Jungle</span>
+                            <span class="player-rank">Diamant I</span>
+                        </div>
+                        <p class="player-bio">Jungle main, macro game fort, dispo tous les soirs</p>
+                    </div>
+                    <button class="btn btn-primary btn-full">Voir le profil</button>
+                </div>
+                <div class="player-card">
+                    <div class="player-header">
+                        <div class="player-avatar">
+                            <img src="/image/image1.jpg">
+                            <img src="/placeholder.svg?height=80&width=80" alt="Avatar">
+                        </div>
+                        <div class="player-status offline"></div>
+                    </div>
+                    <div class="player-info">
+                        <h3 class="player-name">CyberNinja</h3>
+                        <div class="player-game">
+                            <span class="game-badge cs2">CS2</span>
+                        </div>
+                        <div class="player-details">
+                            <span class="player-role">Entry Fragger</span>
+                            <span class="player-rank">Supreme</span>
+                        </div>
+                        <p class="player-bio">Agressif, bon aim, cherche équipe pour FACEIT</p>
+                    </div>
+                    <button class="btn btn-primary btn-full">Voir le profil</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
     <!-- footer -->
     <footer>
         <div class="footer">
@@ -64,37 +254,33 @@
                 </div>
             </div>
 
-            <div>
+            <div class="footer-div">
                 <h3>Plateforme</h3>
-                <ul class="ul">
+                <ul class="footer-ul">
                     <li>Trouver une équipe</li>
                     <li>Créer un profil</li>
                     <li>Tournois</li>
                     <li>Classements</li>
                 </ul>
             </div>
-            <div>
+            <div class="footer-div">
                 <h3>Jeux</h3>
-                <ul class="ul">
+                <ul class="footer-ul">
                     <li>Valorant</li>
                     <li>League of Legends</li>
                     <li>Counter-Strike 2</li>
                     <li>Overwatch 2</li>
                 </ul>
             </div>
-            <div>
+            <div class="footer-div">
                 <h3>Support</h3>
-                <ul class="ul">
+                <ul class="footer-ul">
                     <li>Centre d'aide</li>
                     <li>Conditions d'utilisation</li>
                     <li>Politique de confidentialité</li>
                     <li>Contact</li>
                 </ul>
             </div>
-        </div>
-        <div>
-            <hr class="footer-hr">
-            <p>© 2025 TeamUp.gg. Tous droits réservés. Tayeb SOUINI, Formateur Référent Youcoude Youssoufia</p>
         </div>
     </footer>
 
