@@ -22,13 +22,9 @@ header{
 
 }
 
-a {
+.nav-link {
     text-decoration: none;
     color: white;
-}
-
-a:link:hover {
-    color:#00FFFF;
 }
 
 .container {
@@ -41,13 +37,11 @@ a:link:hover {
     display: flex;
     gap: 20px;
     justify-content: end;
-}
-.nav a:hover{
-    color: #00FFFF;
+    align-items: center;
 }
 
-.nav ul {
-    text-align: center;
+.nav-link:hover{
+    color: #00FFFF;
 }
 
 .div {
@@ -146,37 +140,40 @@ ul li {
 }
 
 .footer-div {
-    width: 500px;
+    width: 280px;
     padding: 10px;
 }
 
 .footer-div-p {
-    width: 49%;
+    width: 95%;
     color: #B0B0B0;
 }
 
 .footer-ul {
     display: flex;
+    flex-direction: column;
     text-align: 50%;
+    line-height: 2.8;
     color: #B0B0B0;
 }
 .footer {
     display: flex;
     flex-direction: row ;
-    gap: 60px;
+    justify-content: center;
 }
 .footer-hr {
     width: 1250px;
 }
 
 .icon i {
-    background-color: #00FFFF4D;
     width: 40px;
     height: 40px;
-    border: 1px;
-    padding-top: 10px;
+    align-content: center;
+    background: #00ffff1a;
+    border: 1px solid #00FFFF4D;
     border-radius: 8px;
     color:#00FFFF;
+    margin-top: 1rem;
 }
 
 .header-1{
@@ -209,6 +206,13 @@ ul li {
 }
 .ccm-h1 {
     text-align: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.annonce-h1 {
+    margin-left: 450px;
+    margin-top: 50px;
     margin-bottom: 50px;
 }
 
@@ -232,4 +236,134 @@ ul li {
 
 ::placeholder{
     color: #e0e0e0c4;
+}
+
+.Joueurs {
+    background-color: linear-gradient(135deg,#1A1F3A,#0F1428);
+    border: 1px solid rgba(0, 255, 255, 0.2);
+    border-radius: 16px;
+    padding: 1.5rem;
+    width: 670px;
+    height: 361.16px;
+    display: flex;
+    flex-direction: column;
+}
+.players-flex {
+  display: flex;
+  width: 100%;
+  gap: 2rem;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-bottom: 3rem;
+  
+}
+
+.player-card {
+  background: linear-gradient(135deg, rgba(26, 31, 58, 0.8), rgba(15, 20, 40, 0.8));
+  border: 1px solid rgba(0, 255, 255, 0.2);
+  border-radius: 16px;
+  padding: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  width: 365px;
+}
+
+.player-header {
+  position: relative;
+  margin-bottom: 1rem;
+}
+
+.player-avatar {
+  width: 80px;
+  height: 80px;
+  margin: 0 auto;
+  display: block;
+ 
+  border-radius: 50%;
+  overflow: hidden;
+  border: 3px solid #00ffff;
+  box-shadow: 0 0 20px rgba(0, 255, 255, 0.4);
+  
+}
+.player-avatar img {
+    width: 75px;
+    height: 75px;
+}
+
+.player-info {
+  text-align: center;
+  flex-grow: 1;
+}
+
+.player-name {
+  font-size: 1.25rem;
+  font-weight: 700;
+  margin-bottom: 0.75rem;
+  color: #fff;
+}
+
+.player-game {
+  margin-bottom: 0.75rem;
+}
+
+.game-badge {
+  display: inline-block;
+  padding: 0.25rem 0.75rem;
+  border-radius: 20px;
+  font-size: 0.85rem;
+  font-weight: 600;
+}
+
+.game-badge.valorant {
+  background: rgba(255, 70, 85, 0.2);
+  color: #ff4655;
+  border: 1px solid rgba(255, 70, 85, 0.4);
+}
+
+.game-badge.lol {
+  background: rgba(0, 150, 255, 0.2);
+  color: #0096ff;
+  border: 1px solid rgba(0, 150, 255, 0.4);
+}
+
+.game-badge.cs2 {
+  background: rgba(255, 165, 0, 0.2);
+  color: #ffa500;
+  border: 1px solid rgba(255, 165, 0, 0.4);
+}
+
+.player-rank {
+  color: #00ffff;
+  font-weight: 600;
+}
+
+.player-bio {
+  color: #b0b0b0;
+  font-size: 0.9rem;
+  line-height: 1.6;
+  margin-bottom: 1.5rem;
+}
+
+.btn {
+  display: inline-block;
+  padding: 0.75rem 1.5rem;
+  border-radius: 8px;
+  text-decoration: none;
+  font-weight: 600;
+  border: none;
+  font-size: 1rem;
+}
+
+.btn-primary {
+  background: linear-gradient(135deg, #00ffff, #0099ff);
+  color: #0a0e27;
+  box-shadow: 0 4px 15px rgba(0, 255, 255, 0.3);
+}
+
+.section-title {
+  text-align: center;
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+  color: #fff;
+  position: relative;
 }
